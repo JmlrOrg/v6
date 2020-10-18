@@ -1,0 +1,16 @@
+{
+    "abstract": "We develop a closed form asymptotic formula to compute the marginal\nlikelihood of data given a naive Bayesian network model with two\nhidden states and binary features. This formula deviates from the\nstandard BIC score. Our work provides a concrete example that\nthe BIC score is generally incorrect for statistical models that \nbelong to stratified exponential families. This claim stands in \ncontrast to linear and curved exponential families, where the BIC \nscore has been proven to provide a correct asymptotic approximation \nfor the marginal likelihood.",
+    "authors": [
+        "Dmitry Rusakov",
+        "Dan Geiger"
+    ],
+    "id": "rusakov05a",
+    "issue": 1,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Asymptotic Model Selection for Naive Bayesian Networks",
+    "volume": "6",
+    "year": "2005"
+}

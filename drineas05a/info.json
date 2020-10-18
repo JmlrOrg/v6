@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nA problem for many kernel-based methods is that the amount of computation \nrequired to find the solution scales as <i>O(n<sup>3</sup>)</i>, \nwhere <i>n</i> is the number of training examples.\nWe develop and analyze an algorithm to compute an easily-interpretable low-rank \napproximation to an <i>n &#215; n</i> Gram matrix <i>G</i> such that computations of \ninterest may be performed more rapidly.\nThe approximation is of the form <i><sup>~</sup>G<sub>k</sub> = \nCW<sub>k</sub><sup>+</sup>C<sup>T</sup></i>, where <i>C</i> is a \nmatrix consisting of a small number <i>c</i> of columns of <i>G</i> and \n<i>W<sub>k</sub></i> is the best \nrank-<i>k</i> approximation to <i>W</i>, the matrix formed by \nthe intersection between those <i>c</i> columns of <i>G</i> and \nthe corresponding <i>c</i> rows of <i>G</i>.\nAn important aspect of the algorithm is the probability distribution used to \nrandomly sample the columns;\nwe will use a judiciously-chosen and data-dependent nonuniform probability \ndistribution.\nLet ||&#183;||<sub>2</sub> and ||&#183;||<sub><i>F</i></sub>  denote the \nspectral norm and the \nFrobenius norm, respectively, of a matrix, and let <i>G<sub>k</sub></i> \nbe the best rank-<i>k</i> approximation to <i>G</i>. \nWe prove that by choosing <i>O(k/&#x3B5;<sup>4</sup>)</i> columns\n</p>\n<center>\n\n||<i>G-CW<sub>k</sub><sup>+</sup>C<sup>T</sup></i>||<sub>&#958;</sub> \n&#8804; ||<i>G-G<sub>k</sub></i>||<sub>&#958;</sub> + \n&#x3B5; &#931;<i><sub>i=1</sub><sup>n</sup> G<sub>ii</sub><sup>2</sup> </i>  ,\n</center>\n<p>\nboth in expectation and with high probability, for both <i>&#958; = 2</i>, <i>F</i>, \nand for all <i>k: 0 &#8804; k &#8804;</i> rank<i>(W)</i>.\nThis approximation can be computed using <i>O(n)</i> additional space and time, \nafter making two passes over the data from external storage.\nThe relationships between this algorithm, other related matrix decompositions, \nand the Nystr&#246;m method from integral equation theory are discussed.\n</p>",
+    "authors": [
+        "Petros Drineas",
+        "Michael W. Mahoney"
+    ],
+    "id": "drineas05a",
+    "issue": 72,
+    "pages": [
+        2153,
+        2175
+    ],
+    "title": "On the Nystr\u00c3\u00b6m Method for Approximating a Gram Matrix for Improved Kernel-Based Learning",
+    "volume": "6",
+    "year": "2005"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "This work deals with a method for building a reproducing kernel\nHilbert space (RKHS) from a Hilbert space with frame elements\nhaving special properties. Conditions on existence and a method of\nconstruction are given. Then, these RKHS are used within the\nframework of regularization theory for function approximation.\nImplications on semiparametric estimation are discussed and a\nmultiscale scheme of regularization is also proposed.\n Results on toy and real-world approximation problems illustrate the\neffectiveness of such methods.",
+    "authors": [
+        "Alain Rakotomamonjy",
+        "St&#233;phane Canu"
+    ],
+    "id": "rakotomamonjy05a",
+    "issue": 51,
+    "pages": [
+        1485,
+        1515
+    ],
+    "title": "Frames, Reproducing Kernels, Regularization and Learning",
+    "volume": "6",
+    "year": "2005"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "We describe new loss functions for regression problems along with an\naccompanying algorithmic framework which utilizes these functions.  These loss\nfunctions are derived by symmetrization of margin-based losses commonly used in\nboosting algorithms, namely, the logistic loss and the exponential loss.  The\nresulting symmetric logistic loss can be viewed as a smooth approximation to\nthe  &#949;-insensitive hinge loss used in support vector regression. We\ndescribe and analyze two parametric families of batch learning algorithms for\nminimizing these symmetric losses. The first family employs an iterative\n<i>log-additive</i> update which can be viewed as a regression counterpart to\nrecent boosting algorithms. The second family utilizes an iterative\n<i>additive</i> update step. We also describe and analyze online gradient\ndescent (GD) and exponentiated gradient (EG) algorithms for the symmetric\nlogistic loss. A byproduct of our work is a new simple form of regularization\nfor boosting-based classification and regression algorithms. Our regression\nframework also has implications on classification algorithms, namely, a new\nadditive update boosting algorithm for classification. We demonstrate the\nmerits of our algorithms in a series of experiments.",
+    "authors": [
+        "Ofer Dekel",
+        "Shai Shalev-Shwartz",
+        "Yoram Singer"
+    ],
+    "id": "dekel05a",
+    "issue": 25,
+    "pages": [
+        711,
+        741
+    ],
+    "title": "Smooth \u00ce\u00b5-Insensitive Regression by Loss Symmetrization",
+    "volume": "6",
+    "year": "2005"
+}

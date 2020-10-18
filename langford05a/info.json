@@ -1,0 +1,15 @@
+{
+    "abstract": "We discuss basic prediction theory and its impact on classification\nsuccess evaluation, implications for learning algorithm design, and\nuses in learning algorithm execution. This tutorial is meant to be\na comprehensive compilation of results which are both theoretically\nrigorous and quantitatively useful. <p>\n\nThere are two important implications of the results presented\nhere. The first is that common practices for reporting results in\nclassification should change to use the test set bound. The second is\nthat train set bounds can sometimes be used to directly motivate\nlearning algorithms.",
+    "authors": [
+        "John Langford"
+    ],
+    "id": "langford05a",
+    "issue": 10,
+    "pages": [
+        273,
+        306
+    ],
+    "title": "Tutorial on Practical Prediction Theory for Classification",
+    "volume": "6",
+    "year": "2005"
+}

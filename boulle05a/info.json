@@ -1,0 +1,15 @@
+{
+    "abstract": "In supervised machine learning, the partitioning of the values (also\ncalled grouping) of a categorical attribute aims at constructing a new\nsynthetic attribute which keeps the information of the initial\nattribute and reduces the number of its values. In this paper, we\npropose a new grouping method MODL founded on a Bayesian\napproach. The method relies on a model space of grouping models and on\na prior distribution defined on this model space. This results in an\nevaluation criterion of grouping, which is minimal for the most\nprobable grouping given the data, <i>i.e.</i> the Bayes optimal grouping. We\npropose new super-linear optimization heuristics that yields\nnear-optimal groupings. Extensive comparative experiments demonstrate\nthat the MODL grouping method builds high quality groupings in terms\nof predictive quality, robustness and small number of groups.",
+    "authors": [
+        "Marc Boull&#233;"
+    ],
+    "id": "boulle05a",
+    "issue": 49,
+    "pages": [
+        1431,
+        1452
+    ],
+    "title": "A Bayes Optimal Approach for Partitioning the Values of Categorical Attributes",
+    "volume": "6",
+    "year": "2005"
+}

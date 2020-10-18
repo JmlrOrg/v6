@@ -1,0 +1,17 @@
+{
+    "abstract": "We present a family of positive definite kernels on measures,\ncharacterized by the fact that the value of the kernel between two\nmeasures is a function of their sum. These kernels can be used to\nderive kernels on structured objects, such as images and texts, by\nrepresenting these objects as sets of components, such as pixels\nor words, or more generally as measures on the space of\ncomponents. Several kernels studied in this work make use of\ncommon quantities defined on measures such as entropy or\ngeneralized variance to detect similarities. Given an a priori\nkernel on the space of components itself, the approach is further\nextended by restating the previous results in a more efficient and\nflexible framework using the \"kernel trick\". Finally, a\nconstructive approach to such positive definite kernels through an\nintegral representation theorem is proved, before presenting\nexperimental results on a benchmark experiment of handwritten\ndigits classification to illustrate the validity of the approach.",
+    "authors": [
+        "Marco Cuturi",
+        "Kenji Fukumizu",
+        "Jean-Philippe Vert"
+    ],
+    "id": "cuturi05a",
+    "issue": 40,
+    "pages": [
+        1169,
+        1198
+    ],
+    "title": "Semigroup Kernels on Measures",
+    "volume": "6",
+    "year": "2005"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "A central challenge in learning probabilistic graphical models is\n  dealing with domains that involve hidden variables.  The common\n  approach for learning model parameters in such domains is the \n  <i>expectation maximization</i> (EM) algorithm.  This algorithm,\n  however, can easily get trapped in sub-optimal local maxima.\n  Learning the model <i>structure</i> is even more challenging.  The\n  <i>structural EM</i> algorithm can adapt the structure in the presence of\n  hidden variables, but usually performs poorly without prior\n  knowledge about the cardinality and location of the hidden\n  variables.  In this work, we present a general approach for learning\n  Bayesian networks with hidden variables that overcomes these\n  problems.  The approach builds on the <i>information bottleneck</i>\n  framework of Tishby et al. (1999). We start by proving formal\n  correspondence between the information bottleneck objective and the standard\n  parametric EM functional.  We then use this correspondence to construct a\n  learning algorithm that combines an information-theoretic smoothing\n  term with a continuation procedure.  Intuitively, the algorithm\n  bypasses local maxima and achieves superior solutions by following a\n  continuous path from a solution of, an easy and smooth, target\n  function, to a solution of the desired likelihood function.  As we\n  show, our algorithmic framework allows learning of the parameters as\n  well as the structure of a network. In addition, it also allows us\n  to introduce new hidden variables during model selection and learn\n  their cardinality.  We demonstrate the performance of our procedure\n  on several challenging real-life data sets.",
+    "authors": [
+        "Gal Elidan",
+        "Nir Friedman"
+    ],
+    "id": "elidan05a",
+    "issue": 4,
+    "pages": [
+        81,
+        127
+    ],
+    "title": "Learning Hidden Variable Networks: The Information Bottleneck Approach",
+    "volume": "6",
+    "year": "2005"
+}

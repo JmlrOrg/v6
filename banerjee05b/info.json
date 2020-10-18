@@ -1,0 +1,18 @@
+{
+    "abstract": "A wide variety of distortion functions, such as squared Euclidean  \ndistance, Mahalanobis distance, Itakura-Saito distance and relative  \nentropy, have been used for clustering. In this paper, we propose and  \nanalyze parametric hard and soft clustering algorithms based on a  \nlarge class of distortion functions known as Bregman divergences. The  \nproposed algorithms unify centroid-based parametric clustering  \napproaches, such as classical <tt>kmeans</tt>, the Linde-Buzo-Gray (LBG)  \nalgorithm and information-theoretic clustering, which arise by special  \nchoices of the Bregman divergence. The algorithms maintain the  \nsimplicity and scalability of the classical <tt>kmeans</tt> algorithm,  \nwhile generalizing the method to a large class of clustering loss  \nfunctions.  This is achieved by first posing the hard clustering  \nproblem in terms of minimizing the loss in Bregman information, a  \nquantity motivated by rate distortion theory, and then deriving an  \niterative algorithm that monotonically decreases this loss. In  \naddition,  \nwe show that there is a bijection between regular exponential families  \nand a large class of Bregman divergences, that we call regular Bregman  \ndivergences. This result enables the development of an alternative  \ninterpretation of an efficient EM scheme for learning mixtures of  \nexponential family distributions, and leads to a simple soft  \nclustering algorithm for regular Bregman divergences. Finally, we  \ndiscuss the connection between rate distortion theory and Bregman  \nclustering and present an information theoretic analysis of Bregman  \nclustering algorithms in terms of a trade-off between compression and  \nloss in Bregman information.",
+    "authors": [
+        "Arindam Banerjee",
+        "Srujana Merugu",
+        "Inderjit S. Dhillon",
+        "Joydeep Ghosh"
+    ],
+    "id": "banerjee05b",
+    "issue": 58,
+    "pages": [
+        1705,
+        1749
+    ],
+    "title": "Clustering with Bregman Divergences",
+    "volume": "6",
+    "year": "2005"
+}

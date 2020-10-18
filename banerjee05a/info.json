@@ -1,0 +1,18 @@
+{
+    "abstract": "Several large scale data mining applications, such as text\ncategorization and gene expression analysis, involve high-dimensional\ndata that is also inherently directional in nature.  Often such data\nis <i>L<sub>2</sub></i> normalized so that it lies on the surface of a\nunit hypersphere.  Popular models such as (mixtures of) multi-variate\nGaussians are inadequate for characterizing such data. This paper\nproposes a generative mixture-model approach to clustering directional\ndata based on the von Mises-Fisher (vMF) distribution, which arises\nnaturally for data distributed on the unit hypersphere.  In\nparticular, we derive and analyze two variants of the Expectation\nMaximization (EM) framework for estimating the mean and concentration\nparameters of this mixture.  Numerical estimation of the concentration\nparameters is non-trivial in high dimensions since it involves\nfunctional inversion of ratios of Bessel functions.  We also formulate\ntwo clustering algorithms corresponding to the variants of EM that we\nderive.  Our approach provides a theoretical basis for the use of\ncosine similarity that has been widely employed by the information\nretrieval community, and obtains the spherical kmeans algorithm\n(kmeans with cosine similarity) as a special case of both variants.\nEmpirical results on clustering of high-dimensional text and\ngene-expression data based on a mixture of vMF distributions show that\nthe ability to estimate the concentration parameter for each vMF\ncomponent, which is not present in existing approaches, yields\nsuperior results, especially for difficult clustering tasks in\nhigh-dimensional spaces.",
+    "authors": [
+        "Arindam Banerjee",
+        "Inderjit S. Dhillon",
+        "Joydeep Ghosh",
+        "Suvrit Sra"
+    ],
+    "id": "banerjee05a",
+    "issue": 46,
+    "pages": [
+        1345,
+        1382
+    ],
+    "title": "Clustering on the Unit Hypersphere using von Mises-Fisher  Distributions",
+    "volume": "6",
+    "year": "2005"
+}

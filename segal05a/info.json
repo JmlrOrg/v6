@@ -1,0 +1,19 @@
+{
+    "abstract": "Methods for learning Bayesian networks can discover dependency\nstructure between observed variables. Although these methods are\nuseful in many applications, they run into computational and\nstatistical problems in domains that involve a large number of\nvariables.  In this paper, we consider a solution that is applicable\nwhen many variables have similar behavior. We introduce a new class of\nmodels, <i>module networks</i>, that explicitly partition the\nvariables into modules, so that the variables in each module share the\nsame parents in the network and the same conditional probability\ndistribution.  We define the semantics of module networks, and\ndescribe an algorithm that learns the modules' composition and their\ndependency structure from data. Evaluation on real data in the domains\nof gene expression and the stock market shows that module networks\ngeneralize better than Bayesian networks, and that the learned module\nnetwork structure reveals regularities that are obscured in learned\nBayesian networks.",
+    "authors": [
+        "Eran Segal",
+        "Dana Pe'er",
+        "Aviv Regev",
+        "Daphne Koller",
+        "Nir Friedman"
+    ],
+    "id": "segal05a",
+    "issue": 19,
+    "pages": [
+        557,
+        588
+    ],
+    "title": "Learning Module Networks",
+    "volume": "6",
+    "year": "2005"
+}

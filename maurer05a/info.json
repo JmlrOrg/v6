@@ -1,0 +1,15 @@
+{
+    "abstract": "A mechnism of transfer learning is analysed, where samples drawn from\ndifferent learning tasks of an environment are used to improve the learners\nperformance on a new task. We give a general method to prove generalisation\nerror bounds for such meta-algorithms. The method can be applied to the bias\nlearning model of J. Baxter and to derive novel generalisation bounds for\nmeta-algorithms searching spaces of uniformly stable algorithms. We also\npresent an application to regularized least squares regression.",
+    "authors": [
+        "Andreas Maurer"
+    ],
+    "id": "maurer05a",
+    "issue": 33,
+    "pages": [
+        967,
+        994
+    ],
+    "title": "Algorithmic Stability and Meta-Learning",
+    "volume": "6",
+    "year": "2005"
+}

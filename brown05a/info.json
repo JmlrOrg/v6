@@ -1,0 +1,17 @@
+{
+    "abstract": "Ensembles are a widely used and effective technique in machine learning---their\nsuccess is commonly attributed to the degree of disagreement, or 'diversity',\nwithin the ensemble.  For ensembles where the individual estimators output\ncrisp class labels, this 'diversity' is not well understood and remains an open\nresearch issue.  For ensembles of regression estimators, the diversity can be\nexactly formulated in terms of the covariance between individual estimator\noutputs, and the optimum level is expressed in terms of a\n<i>bias-variance-covariance</i> trade-off.  Despite this, most approaches to\nlearning ensembles use heuristics to encourage the right degree of diversity.\nIn this work we show how to explicitly control diversity through the error\nfunction. The first contribution of this paper is to show that <i>by taking\nthe combination mechanism for the ensemble into account we can derive an error\nfunction for each individual that balances ensemble diversity with individual\naccuracy</i>.  We show the relationship between this error function and an\nexisting algorithm called <i>negative correlation learning</i>, which uses a\nheuristic penalty term added to the mean squared error function.  It is\ndemonstrated that these methods control the bias-variance-covariance trade-off\nsystematically, and can be utilised with any estimator capable of minimising a\nquadratic error function, for example MLPs, or RBF networks.\nAs a second contribution, we derive a strict upper bound on the coefficient of\nthe penalty term, which holds for any estimator that can be cast in a\ngeneralised linear regression framework, with mild assumptions on the basis\nfunctions. Finally we present the results of an empirical study, showing\nsignificant improvements over simple ensemble learning, and finding that this\ntechnique is competitive with a variety of methods, including boosting,\nbagging, mixtures of experts, and Gaussian processes, on a number of tasks.",
+    "authors": [
+        "Gavin Brown",
+        "Jeremy L. Wyatt",
+        "Peter Ti&#328;o"
+    ],
+    "id": "brown05a",
+    "issue": 55,
+    "pages": [
+        1621,
+        1650
+    ],
+    "title": "Managing Diversity in Regression Ensembles",
+    "volume": "6",
+    "year": "2005"
+}

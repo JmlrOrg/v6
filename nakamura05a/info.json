@@ -1,0 +1,18 @@
+{
+    "abstract": "Bayesian networks have become one of the major models used for\nstatistical inference.  We study the question whether the decisions\ncomputed by a Bayesian network can be represented within a\nlow-dimensional inner product space. We focus on two-label\nclassification tasks over the Boolean domain.  As main results we\nestablish upper and lower bounds on the dimension of the inner product\nspace for Bayesian networks with an explicitly given (full or reduced)\nparameter collection. In particular, these bounds are tight up to a\nfactor of <i>2</i>. For some nontrivial cases of Bayesian networks we\neven determine the exact values of this dimension.  We further\nconsider logistic autoregressive Bayesian networks and show that every\nsufficiently expressive inner product space must have dimension at\nleast &#937;(<i>n<sup>2</sup></i>), where <i>n</i> is the number of\nnetwork nodes. We also derive the bound\n<i>2</i><sup>&#937;(<i>n</i>)</sup> for an artificial variant of\nthis network, thereby demonstrating the limits of our approach and\nraising an interesting open question.  As a major technical\ncontribution, this work reveals combinatorial and algebraic structures\nwithin Bayesian networks such that known methods for the derivation of\nlower bounds on the dimension of inner product spaces can be brought\ninto play.",
+    "authors": [
+        "Atsuyoshi Nakamura",
+        "Michael Schmitt",
+        "Niels Schmitt",
+        "Hans Ulrich Simon"
+    ],
+    "id": "nakamura05a",
+    "issue": 47,
+    "pages": [
+        1383,
+        1403
+    ],
+    "title": "Inner Product Spaces for Bayesian Networks",
+    "volume": "6",
+    "year": "2005"
+}

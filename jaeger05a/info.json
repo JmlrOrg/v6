@@ -1,0 +1,15 @@
+{
+    "abstract": "A unified  approach is taken for deriving new generalization\n data dependent bounds for several classes of algorithms\nexplored in the existing literature by different approaches. This\nunified approach is based on an extension of Vapnik's inequality for\nVC classes of sets to random classes of sets - that is, classes\ndepending on the random data, invariant under permutation of the\n data and possessing the increasing property.\nGeneralization bounds are derived for convex combinations of\nfunctions from random classes with certain properties. Algorithms,\nsuch as SVMs (support vector machines), boosting with\n decision stumps, radial basis function networks, some hierarchies\nof kernel machines or convex combinations of indicator functions\nover sets with finite VC dimension, generate classifier functions\nthat fall into the above category. We also explore the individual\ncomplexities of the classifiers, such as sparsity of weights and\nweighted variance over clusters from the convex combination\nintroduced by Koltchinskii and Panchenko (2004), and show\nsparsity-type and cluster-variance-type generalization bounds for\nrandom classes.",
+    "authors": [
+        "Savina Andonova Jaeger"
+    ],
+    "id": "jaeger05a",
+    "issue": 11,
+    "pages": [
+        307,
+        340
+    ],
+    "title": "Generalization Bounds and Complexities Based on Sparsity and Clustering for Convex Combinations of Functions from Random Classes",
+    "volume": "6",
+    "year": "2005"
+}

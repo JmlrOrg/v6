@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nWinner-take-all multiclass classifiers are built on the top of a\nset of prototypes each representing one of the available classes.\nA pattern is then classified with the label associated to the most\n'similar' prototype. Recent proposal of SVM extensions to\nmulticlass can be considered instances of the same strategy with\none prototype per class.\n</p>\n<p>\nThe multi-prototype SVM proposed in this paper extends multiclass\nSVM to multiple prototypes per class. It allows to combine several\nvectors in a principled way to obtain large margin decision\nfunctions. For this problem, we give a compact constrained\nquadratic formulation and we propose a greedy optimization\nalgorithm able to find locally optimal solutions for the non\nconvex objective function.\n</p>\n<p>\nThis algorithm proceeds by reducing the overall problem into a\nseries of simpler convex problems. For the solution of these\nreduced problems an efficient optimization algorithm is proposed.\nA number of pattern selection strategies are then discussed to\nspeed-up the optimization process. In addition, given the\ncombinatorial nature of the overall problem, stochastic search\nstrategies are suggested to escape from local minima which are not\nglobally optimal.\n</p>\n<p>\nFinally, we report experiments on a number of datasets. The\nperformance obtained using few simple linear prototypes is\ncomparable to that obtained by state-of-the-art kernel-based\nmethods but with a significant reduction\n(of one or two orders) in response time.\n</p>",
+    "authors": [
+        "Fabio Aiolli",
+        "Alessandro Sperduti"
+    ],
+    "id": "aiolli05a",
+    "issue": 28,
+    "pages": [
+        817,
+        850
+    ],
+    "title": "Multiclass Classification with Multi-Prototype Support Vector Machines",
+    "volume": "6",
+    "year": "2005"
+}

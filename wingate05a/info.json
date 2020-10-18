@@ -1,0 +1,16 @@
+{
+    "abstract": "The performance of value and policy iteration can be dramatically\nimproved by eliminating redundant or useless backups, and by backing\nup states in the right order.  We study several methods designed to\naccelerate these iterative solvers, including prioritization,\npartitioning, and variable reordering.  We generate a family of\nalgorithms by combining several of the methods discussed, and present\nextensive empirical evidence demonstrating that performance can\nimprove by several orders of magnitude for many problems, while\npreserving accuracy and convergence guarantees.",
+    "authors": [
+        "David Wingate",
+        "Kevin D. Seppi"
+    ],
+    "id": "wingate05a",
+    "issue": 29,
+    "pages": [
+        851,
+        881
+    ],
+    "title": "Prioritization Methods for Accelerating MDP Solvers",
+    "volume": "6",
+    "year": "2005"
+}

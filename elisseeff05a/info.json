@@ -1,0 +1,17 @@
+{
+    "abstract": "We extend existing theory on stability, namely how much\nchanges in the training data influence the estimated models, and\ngeneralization performance of deterministic learning algorithms to the\ncase of randomized algorithms. We give formal definitions of stability\nfor randomized algorithms and prove non-asymptotic bounds on the\ndifference between the empirical and expected error as well as the\nleave-one-out and expected error of such algorithms that depend on\ntheir random stability.  The setup we develop for this purpose can be\nalso used for generally studying randomized learning algorithms.  We\nthen use these general results to study the effects of bagging on the\nstability of a learning method and to prove non-asymptotic bounds on\nthe predictive performance of bagging which have not been possible to\nprove with the existing theory of stability for deterministic learning\nalgorithms.",
+    "authors": [
+        "Andre Elisseeff",
+        "Theodoros Evgeniou",
+        "Massimiliano Pontil"
+    ],
+    "id": "elisseeff05a",
+    "issue": 3,
+    "pages": [
+        55,
+        79
+    ],
+    "title": "Stability of Randomized Learning Algorithms",
+    "volume": "6",
+    "year": "2005"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "Standard SVM training has <i>O</i>(<i>m<sup>3</sup></i>) time and \n<i>O</i>(<i>m<sup>2</sup></i>) space complexities, where <i>m</i> \nis the training set size. It is thus computationally infeasible\non very large data sets. By observing that practical SVM \nimplementations only <i>approximate</i> the optimal solution \nby an iterative strategy, we scale up kernel methods by exploiting \nsuch \"approximateness\" in this paper.  We first show that many kernel \nmethods can be equivalently formulated as minimum enclosing ball (MEB)\nproblems in computational geometry. Then, by adopting an efficient \napproximate MEB algorithm, we obtain provably approximately optimal \nsolutions with the idea of core sets. Our proposed Core Vector Machine\n(CVM) algorithm can be used with nonlinear kernels and has a time \ncomplexity that is <i>linear</i> in <i>m</i> and a space\ncomplexity that is <i>independent</i> of <i>m</i>.\nExperiments on large toy and real-world data sets demonstrate that \nthe CVM is as accurate as existing SVM implementations, but is\nmuch faster and can handle much larger data sets than existing \nscale-up methods.  For example, CVM with the Gaussian kernel produces \nsuperior results on the KDDCUP-99 intrusion detection data, which has \nabout five million training patterns, in only 1.4 seconds on a 3.2GHz \nPentium--4 PC.",
+    "authors": [
+        "Ivor W. Tsang",
+        "James T. Kwok",
+        "Pak-Ming Cheung"
+    ],
+    "id": "tsang05a",
+    "issue": 13,
+    "pages": [
+        363,
+        392
+    ],
+    "title": "Core Vector Machines: Fast SVM Training on Very Large Data Sets",
+    "volume": "6",
+    "year": "2005"
+}

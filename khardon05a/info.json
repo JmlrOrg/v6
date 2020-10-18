@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nRecent work has introduced Boolean kernels with which one can learn\nlinear threshold functions over a feature space containing all\nconjunctions of length up to <i>k</i> (for any 1 &#8804;\n<i>k</i> &#8804; <i>n</i>) over the original <i>n</i> Boolean\nfeatures in the input space.  This motivates the question of whether\nmaximum margin algorithms such as Support Vector Machines can learn\nDisjunctive Normal Form expressions in the Probably Approximately\nCorrect (PAC) learning model by using this kernel.  We study this\nquestion, as well as a variant in which structural risk minimization\n(SRM) is performed where the class hierarchy is taken over the length\nof conjunctions.\n</p>\n<p>\nWe show that maximum margin algorithms using the Boolean kernels do\nnot PAC learn <i>t</i>(<i>n</i>)-term DNF for any <i>t</i>(<i>n</i>)\n= &#969;(1), even when used with such a SRM scheme.  We also\nconsider PAC learning under the uniform distribution and show that if\nthe kernel uses conjunctions of length\n&#732;&#969;(&#8730;<i>n</i>) then the maximum margin hypothesis\nwill fail on the uniform distribution as well.  Our results concretely\nillustrate that margin based algorithms may overfit when learning\nsimple target functions with natural kernels.\n</p>",
+    "authors": [
+        "Roni Khardon",
+        "Rocco A. Servedio"
+    ],
+    "id": "khardon05a",
+    "issue": 48,
+    "pages": [
+        1405,
+        1429
+    ],
+    "title": "Maximum Margin Algorithms with Boolean Kernels",
+    "volume": "6",
+    "year": "2005"
+}

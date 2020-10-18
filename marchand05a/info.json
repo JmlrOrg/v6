@@ -1,0 +1,16 @@
+{
+    "abstract": "We present a learning algorithm for decision lists which allows\nfeatures that are constructed from the data and allows a trade-off\nbetween accuracy and complexity. We provide bounds on the\ngeneralization error of this learning algorithm in terms of the\nnumber of errors and the size of the classifier it finds on the\ntraining data. We also compare its performance on some natural\ndata sets with the set covering machine and the support vector\nmachine. Furthermore, we show that the proposed bounds on the\ngeneralization error provide effective guides for model selection.",
+    "authors": [
+        "Mario Marchand",
+        "Marina Sokolova"
+    ],
+    "id": "marchand05a",
+    "issue": 15,
+    "pages": [
+        427,
+        451
+    ],
+    "title": "Learning with Decision Lists of Data-Dependent Features",
+    "volume": "6",
+    "year": "2005"
+}

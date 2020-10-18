@@ -1,0 +1,17 @@
+{
+    "abstract": "Typical recommender systems adopt a static view of the recommendation\nprocess and treat it as a prediction problem.  We argue that it is\nmore appropriate to view the problem of generating recommendations as\na sequential optimization problem and, consequently, that Markov\ndecision processes (MDPs) provide a more appropriate model for\nrecommender systems.  MDPs introduce two benefits: they take into\naccount the long-term effects of each recommendation and\nthe expected value of each recommendation.  To succeed in\npractice, an MDP-based recommender system must employ a strong initial\nmodel, must be solvable quickly, and should not consume too much\nmemory. In this paper, we describe our particular MDP model, its\ninitialization using a predictive model, the solution and update\nalgorithm, and its actual performance on a commercial site.  We also\ndescribe the particular predictive model we used which outperforms\nprevious models. Our system is one of a small number of commercially\ndeployed recommender systems. As far as we know, it is the first to\nreport experimental analysis conducted on a\nreal commercial site. These results validate the commercial value\nof recommender systems, and in particular, of our MDP-based approach.",
+    "authors": [
+        "Guy Shani",
+        "David Heckerman",
+        "Ronen I. Brafman"
+    ],
+    "id": "shani05a",
+    "issue": 43,
+    "pages": [
+        1265,
+        1295
+    ],
+    "title": "An MDP-Based Recommender System",
+    "volume": "6",
+    "year": "2005"
+}

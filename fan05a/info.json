@@ -1,0 +1,17 @@
+{
+    "abstract": "Working set selection is an important step in\ndecomposition methods for training support vector machines (SVMs).\nThis paper develops a new technique for working set selection  in\nSMO-type decomposition methods.\nIt uses second order information to achieve fast convergence.\nTheoretical properties such as linear convergence are established.\nExperiments demonstrate that\nthe proposed method is faster than existing selection methods\nusing first order information.",
+    "authors": [
+        "Rong-En Fan",
+        "Pai-Hsuen Chen",
+        "Chih-Jen Lin"
+    ],
+    "id": "fan05a",
+    "issue": 63,
+    "pages": [
+        1889,
+        1918
+    ],
+    "title": "Working Set Selection Using Second Order Information for Training Support Vector Machines",
+    "volume": "6",
+    "year": "2005"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "One of the most important issues in machine learning is whether one\ncan improve the performance of a supervised learning algorithm by\nincluding unlabeled data.  Methods that use both labeled and unlabeled\ndata are generally referred to as semi-supervised learning.  Although\na number of such methods are proposed, at the current stage, we still\ndon't have a complete understanding of their effectiveness.  This\npaper investigates a closely related problem, which leads to a novel\napproach to semi-supervised learning.  Specifically we consider\nlearning predictive structures on hypothesis spaces (that is, what\nkind of classifiers have good predictive power) from multiple learning\ntasks.  We present a general framework in which the structural\nlearning problem can be formulated and analyzed theoretically, and\nrelate it to learning with unlabeled data.  Under this framework,\nalgorithms for structural learning will be proposed, and computational\nissues will be investigated.  Experiments will be given to demonstrate\nthe effectiveness of the proposed algorithms in the semi-supervised\nlearning setting.",
+    "authors": [
+        "Rie Kubota Ando",
+        "Tong Zhang"
+    ],
+    "id": "ando05a",
+    "issue": 61,
+    "pages": [
+        1817,
+        1853
+    ],
+    "title": "A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data",
+    "volume": "6",
+    "year": "2005"
+}

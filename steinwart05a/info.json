@@ -1,0 +1,17 @@
+{
+    "abstract": "One way to describe anomalies is by saying that anomalies \nare not concentrated. This leads to the problem of finding \nlevel sets for the data generating density. We interpret this \nlearning problem as a binary classification problem and compare \nthe corresponding classification risk with the standard \nperformance measure for the density level problem. In particular \nit turns out that the empirical classification risk can serve as \nan empirical performance measure for the anomaly detection problem.  \nThis allows us to compare different anomaly detection algorithms \n<i>empirically</i>, i.e. with the help of a test set.  Furthermore, \nby the above interpretation we can give a strong justification for \nthe well-known heuristic of  artificially sampling \"labeled\" samples, \nprovided that the sampling plan is well chosen.  In particular this \nenables us to propose a support vector machine (SVM) for anomaly \ndetection for which we can easily establish universal consistency. \nFinally, we report some experiments which compare our SVM to other \ncommonly used methods including the standard one-class SVM.",
+    "authors": [
+        "Ingo Steinwart",
+        "Don Hush",
+        "Clint Scovel"
+    ],
+    "id": "steinwart05a",
+    "issue": 8,
+    "pages": [
+        211,
+        232
+    ],
+    "title": "A Classification Framework for Anomaly Detection",
+    "volume": "6",
+    "year": "2005"
+}

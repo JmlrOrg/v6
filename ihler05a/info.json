@@ -1,0 +1,17 @@
+{
+    "abstract": "Belief propagation (BP) is an increasingly popular method of performing\napproximate inference on arbitrary graphical models.  At times, even\nfurther approximations are required, whether due to quantization of the\nmessages or model parameters, from other simplified message or model\nrepresentations, or from stochastic approximation methods.  The\nintroduction of such errors into the BP message computations has the\npotential to affect the solution obtained adversely.  We analyze the\neffect resulting from message approximation under two particular measures\nof error, and show bounds on the accumulation of errors in the system.\nThis analysis leads to convergence conditions for traditional BP message\npassing, and both strict bounds and estimates of the resulting error in\nsystems of approximate BP message passing.",
+    "authors": [
+        "Alexander T. Ihler",
+        "John W. Fisher III",
+        "Alan S. Willsky"
+    ],
+    "id": "ihler05a",
+    "issue": 31,
+    "pages": [
+        905,
+        936
+    ],
+    "title": "Loopy Belief Propagation: Convergence and Effects of Message Errors",
+    "volume": "6",
+    "year": "2005"
+}

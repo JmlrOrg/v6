@@ -1,0 +1,18 @@
+{
+    "abstract": "Traditional biosurveillance algorithms detect disease outbreaks by looking for\npeaks in a univariate time series of health-care data.  Current health-care \nsurveillance data, however, are no longer simply univariate data streams.\nInstead, a wealth of spatial, temporal, demographic and symptomatic\ninformation is available.  We present an early disease outbreak detection \nalgorithm called What's Strange About Recent Events (WSARE), which uses a \nmultivariate approach to improve its timeliness of detection.   WSARE employs \na rule-based technique that compares recent health-care data against data from\na baseline distribution and finds subgroups of the recent data whose \nproportions have changed the most from the baseline data.  In addition, \nhealth-care data also pose difficulties for surveillance algorithms because of\ninherent temporal trends such as seasonal effects and day of week variations.  \nWSARE approaches this problem using a Bayesian network to produce a baseline \ndistribution that accounts for these temporal trends.  The algorithm itself \nincorporates a wide range of ideas, including association rules, Bayesian \nnetworks, hypothesis testing and permutation tests to produce a detection \nalgorithm that is careful to evaluate the significance of the alarms that it \nraises.",
+    "authors": [
+        "Weng-Keen Wong",
+        "Andrew Moore",
+        "Gregory Cooper",
+        "Michael Wagner"
+    ],
+    "id": "wong05a",
+    "issue": 66,
+    "pages": [
+        1961,
+        1998
+    ],
+    "title": "What's Strange About Recent Events (WSARE): An Algorithm for the Early Detection of Disease Outbreaks",
+    "volume": "6",
+    "year": "2005"
+}

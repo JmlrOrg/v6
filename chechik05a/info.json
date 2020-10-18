@@ -1,0 +1,18 @@
+{
+    "abstract": "The problem of extracting the relevant aspects of data was\npreviously addressed through the <i> information bottleneck </i> (IB)\nmethod, through (soft) clustering one variable while preserving\ninformation about another - <i> relevance </i> - variable. The current\nwork extends these ideas to obtain continuous representations that\npreserve relevant information, rather than discrete clusters, for\nthe special case of multivariate Gaussian variables.  \nWhile the general continuous IB problem is difficult to solve, \nwe provide an analytic solution for the optimal representation and\ntradeoff between compression and relevance for the this important\ncase. The obtained optimal representation is a noisy linear \nprojection to eigenvectors of the normalized regression\nmatrix &#931;<sub>x|y</sub>&#931;<sub>x</sub><sup>-1</sup>, \nwhich is also the basis obtained in \ncanonical correlation analysis. However, in Gaussian IB, the \ncompression tradeoff parameter uniquely determines the dimension, \nas well as the scale of each eigenvector, through a cascade of\nstructural phase transitions. This introduces a novel interpretation \nwhere solutions of different ranks lie on a continuum parametrized\nby the compression level. Our analysis also provides a complete \nanalytic expression of the preserved information as a function of\nthe compression (the \"information-curve\"), in terms of the\neigenvalue spectrum of the data. As in the discrete case, the \ninformation curve is concave and smooth, though it is made\nof different analytic segments for each optimal dimension. Finally,\nwe show how the algorithmic theory developed in the IB framework \nprovides an iterative algorithm for obtaining the optimal Gaussian\nprojections.",
+    "authors": [
+        "Gal Chechik",
+        "Amir Globerson",
+        "Naftali Tishby",
+        "Yair Weiss"
+    ],
+    "id": "chechik05a",
+    "issue": 6,
+    "pages": [
+        165,
+        188
+    ],
+    "title": "Information Bottleneck for Gaussian Variables",
+    "volume": "6",
+    "year": "2005"
+}

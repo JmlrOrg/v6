@@ -1,0 +1,16 @@
+{
+    "abstract": "We propose a novel framework for approximations to\nintractable probabilistic models which is based on a\nfree energy formulation. The\napproximation can be understood as replacing an average\nover the original intractable distribution with a tractable one.\nIt requires two tractable probability\ndistributions which are made consistent on a set of\nmoments and encode different features of the original intractable\ndistribution. In this way we are able to use\nGaussian approximations for models with discrete or bounded\nvariables which allow us to include non-trivial\ncorrelations. These are neglected in many other methods.\nWe test the framework on toy benchmark problems for\nbinary variables on fully connected graphs and 2D grids\nand compare with other methods, such as loopy belief propagation.\nGood performance is already achieved by using single nodes as tractable\nsubstructures. Significant improvements are obtained when a spanning\ntree is used instead.",
+    "authors": [
+        "Manfred Opper",
+        "Ole Winther"
+    ],
+    "id": "opper05a",
+    "issue": 73,
+    "pages": [
+        2177,
+        2204
+    ],
+    "title": "Expectation Consistent Approximate Inference",
+    "volume": "6",
+    "year": "2005"
+}

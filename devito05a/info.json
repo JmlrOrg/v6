@@ -1,0 +1,19 @@
+{
+    "abstract": "Many works related learning from examples to regularization techniques\nfor inverse problems, emphasizing the strong algorithmic and\nconceptual analogy of certain learning algorithms with regularization\nalgorithms.  In particular it is well known that regularization\nschemes such as Tikhonov regularization can be effectively used in the\ncontext of learning and are closely related to algorithms such as\nsupport vector machines.  Nevertheless the connection with inverse\nproblem was considered only for the discrete (finite sample) problem\nand the probabilistic aspects of learning from examples were not taken\ninto account.  In this paper we provide a natural extension of such\nanalysis to the continuous (population) case and study the interplay\nbetween the discrete and continuous problems.  From a theoretical\npoint of view, this allows to draw a clear connection between the\nconsistency approach in learning theory and the stability convergence\nproperty in ill-posed inverse problems.  The main mathematical result\nof the paper is a new probabilistic bound for the regularized\nleast-squares algorithm.  By means of standard results on the\napproximation term, the consistency of the algorithm easily follows.",
+    "authors": [
+        "Ernesto De Vito",
+        "Lorenzo Rosasco",
+        "Andrea Caponnetto",
+        "Umberto De Giovannini",
+        "Francesca Odone"
+    ],
+    "id": "devito05a",
+    "issue": 30,
+    "pages": [
+        883,
+        904
+    ],
+    "title": "Learning from Examples as an Inverse Problem",
+    "volume": "6",
+    "year": "2005"
+}

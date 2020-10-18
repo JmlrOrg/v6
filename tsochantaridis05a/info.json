@@ -1,0 +1,18 @@
+{
+    "abstract": "Learning general functional dependencies between arbitrary input and\noutput spaces is one of the key challenges in computational\nintelligence. While recent progress in machine learning has mainly\nfocused on designing flexible and powerful input representations, this\npaper addresses the complementary issue of designing classification\nalgorithms that can deal with more complex outputs, such as trees,\nsequences, or sets. More generally, we consider problems involving\nmultiple dependent output variables, structured output spaces, and\nclassification problems with class attributes.  In order to accomplish\nthis, we propose to appropriately generalize the well-known notion of\na separation margin and derive a corresponding maximum-margin\nformulation. While this leads to a quadratic program with a\npotentially prohibitive, i.e. exponential, number of constraints, we\npresent a cutting plane algorithm that solves the optimization problem\nin polynomial time for a large class of problems.  The proposed method\nhas important applications in areas such as computational biology,\nnatural language processing, information retrieval/extraction, and\noptical character recognition. Experiments from various domains\ninvolving different types of output spaces emphasize the breadth and\ngenerality of our approach.",
+    "authors": [
+        "Ioannis Tsochantaridis",
+        "Thorsten Joachims",
+        "Thomas Hofmann",
+        "Yasemin Altun"
+    ],
+    "id": "tsochantaridis05a",
+    "issue": 50,
+    "pages": [
+        1453,
+        1484
+    ],
+    "title": "Large Margin Methods for Structured and Interdependent Output Variables",
+    "volume": "6",
+    "year": "2005"
+}

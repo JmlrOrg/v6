@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nWe show several high-probability concentration bounds for learning\nunigram language models. One interesting quantity is the\nprobability of all words appearing exactly <i>k</i> times in a sample\nof size <i>m</i>. A standard estimator for this quantity is the\nGood-Turing estimator. The existing analysis on its error shows a\nhigh-probability bound of approximately <i>O(k / m<sup>1/2</sup>)</i>. \nWe improve its dependency on <i>k</i> to <i>O(k<sup>1/4</sup> / \nm<sup>1/2</sup> + k / m)</i>.  We also analyze the\nempirical frequencies estimator, showing that with high\nprobability its error is bounded by approximately <i>O( 1 /\nk + k<sup>1/2</sup> / m)</i>. We derive a combined estimator,\nwhich has an error of approximately <i>O(m<sup>-2/5</sup>)</i>, for\n any <i>k</i>.\n</p><p>\nA standard measure for the quality of a learning algorithm is its\nexpected per-word log-loss. The leave-one-out method can be used\nfor estimating the log-loss of the unigram model. We show that its\nerror has a high-probability bound of approximately <i>O(1 / m<sup>1/2</sup>)</i>, \nfor any underlying distribution.\n</p><p>\nWe also bound the log-loss a priori, as a function of various\nparameters of the distribution.\n</p>",
+    "authors": [
+        "Evgeny Drukh",
+        "Yishay Mansour"
+    ],
+    "id": "drukh05a",
+    "issue": 42,
+    "pages": [
+        1231,
+        1264
+    ],
+    "title": "Concentration Bounds for Unigram Language Models",
+    "volume": "6",
+    "year": "2005"
+}

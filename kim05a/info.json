@@ -1,0 +1,17 @@
+{
+    "abstract": "Support vector machines (SVMs) have been recognized as one of the most\nsuccessful classification methods for many applications including text\nclassification.  Even though the learning ability and computational\ncomplexity of training in support vector machines may be independent\nof the dimension of the feature space, reducing computational\ncomplexity is an essential issue to efficiently handle a large number\nof terms in practical applications of text classification.  In this\npaper, we adopt novel dimension reduction methods to reduce the\ndimension of the document vectors dramatically. We also introduce\ndecision functions for the centroid-based classification algorithm and\nsupport vector classifiers to handle the classification problem where\na document may belong to multiple classes.  Our substantial\nexperimental results show that with several dimension reduction\nmethods that are designed particularly for clustered data, higher\nefficiency for both training and testing can be achieved without\nsacrificing prediction accuracy of text classification even when the\ndimension of the input space is significantly reduced.",
+    "authors": [
+        "Hyunsoo Kim",
+        "Peg Howland",
+        "Haesun Park"
+    ],
+    "id": "kim05a",
+    "issue": 2,
+    "pages": [
+        37,
+        53
+    ],
+    "title": "Dimension Reduction in Text Classification with Support Vector Machines",
+    "volume": "6",
+    "year": "2005"
+}

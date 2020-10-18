@@ -1,0 +1,15 @@
+{
+    "abstract": "Planning problems that involve learning a policy from a single\ntraining set of finite horizon trajectories arise in both social\nscience and medical fields.  We consider Q-learning with function\napproximation for this setting and derive an upper bound on the\ngeneralization error.  This upper bound is in terms of quantities\nminimized by a Q-learning algorithm, the complexity of the\napproximation space and an approximation term due to the mismatch\nbetween Q-learning and the goal of learning a policy that maximizes\nthe value function.",
+    "authors": [
+        "Susan A. Murphy"
+    ],
+    "id": "murphy05a",
+    "issue": 37,
+    "pages": [
+        1073,
+        1097
+    ],
+    "title": "A Generalization Error for Q-Learning",
+    "volume": "6",
+    "year": "2005"
+}

@@ -1,0 +1,15 @@
+{
+    "abstract": "The aim of this contribution is to present a tutorial on learning\nalgorithms for a single neural layer whose connection matrix belongs\nto the orthogonal group. The algorithms exploit geodesics\nappropriately connected as piece-wise approximate integrals of the\nexact differential learning equation. The considered learning\nequations essentially arise from the Riemannian-gradient-based\noptimization theory with deterministic and diffusion-type\ngradient. The paper aims specifically at reviewing the relevant\nmathematics (and at presenting it in as much transparent way as\npossible in order to make it accessible to readers that do not possess\na background in differential geometry), at bringing together modern\noptimization methods on manifolds and at comparing the different\nalgorithms on a common machine learning problem. As a numerical\ncase-study, we consider an application to non-negative independent\ncomponent analysis, although it should be recognized that Riemannian\ngradient methods give rise to general-purpose algorithms, by no means\nlimited to ICA-related applications.",
+    "authors": [
+        "Simone Fiori"
+    ],
+    "id": "fiori05a",
+    "issue": 26,
+    "pages": [
+        743,
+        781
+    ],
+    "title": "Quasi-Geodesic Neural Learning Algorithms Over the Orthogonal Group: A Tutorial",
+    "volume": "6",
+    "year": "2005"
+}

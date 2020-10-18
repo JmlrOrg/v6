@@ -1,0 +1,16 @@
+{
+    "abstract": "We provide a new unifying view, including all existing proper probabilistic\n  sparse approximations for Gaussian process regression. Our approach relies on\n  expressing the <i>effective prior</i> which the methods are using. This\n  allows new insights to be gained, and highlights the relationship between\n  existing methods. It also allows for a clear theoretically justified ranking\n  of the closeness of the known approximations to the corresponding full GPs.\n  Finally we point directly to designs of new better sparse approximations,\n  combining the best of the existing strategies, within attractive\n  computational constraints.",
+    "authors": [
+        "Joaquin Qui&#241;onero-Candela",
+        "Carl Edward Rasmussen"
+    ],
+    "id": "quinonero-candela05a",
+    "issue": 65,
+    "pages": [
+        1939,
+        1959
+    ],
+    "title": "A Unifying View of Sparse Approximate Gaussian Process Regression",
+    "volume": "6",
+    "year": "2005"
+}

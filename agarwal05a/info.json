@@ -1,0 +1,19 @@
+{
+    "abstract": "We study generalization properties of the area under the ROC curve (AUC), a \nquantity that has been advocated as an evaluation criterion for the bipartite \nranking problem.\nThe AUC is a different term than the error rate used for \nevaluation in classification problems; consequently, existing generalization \nbounds for the classification error rate cannot be used to draw conclusions \nabout the AUC. \nIn this paper, we define the expected accuracy of a \nranking function (analogous to the expected error rate of a classification\nfunction), and derive distribution-free probabilistic bounds on the deviation \nof the empirical AUC of a ranking function (observed on a finite data \nsequence) from its expected accuracy.  \nWe derive both a large deviation bound, which serves to bound the expected \naccuracy of a ranking function in terms of its empirical AUC on a test\nsequence, and a uniform convergence bound, which serves to bound the expected \naccuracy of a learned ranking function in terms of its empirical AUC on a \ntraining sequence.\nOur uniform convergence bound is expressed in terms of a new set of \ncombinatorial parameters that we term the bipartite rank-shatter coefficients;\nthese play the same role in our result as do the standard VC-dimension related \nshatter coefficients (also known as the growth function) in uniform \nconvergence results for the classification error rate.\nA comparison of our result with a recent uniform convergence result derived by\nFreund et al. (2003) for a quantity closely related to the AUC shows that \nthe bound provided by our result can be considerably tighter.",
+    "authors": [
+        "Shivani Agarwal",
+        "Thore Graepel",
+        "Ralf Herbrich",
+        "Sariel Har-Peled",
+        "Dan Roth"
+    ],
+    "id": "agarwal05a",
+    "issue": 14,
+    "pages": [
+        393,
+        425
+    ],
+    "title": "Generalization Bounds for the Area Under the ROC Curve",
+    "volume": "6",
+    "year": "2005"
+}

@@ -1,0 +1,15 @@
+{
+    "abstract": "A generalized discriminant analysis based on a new optimization \ncriterion  is presented. The criterion extends the optimization \ncriteria of the classical Linear Discriminant Analysis (LDA) when \nthe scatter matrices are singular. An efficient algorithm for  \nthe new optimization problem is presented.  \n<p>\nThe solutions to the \nproposed criterion form a family of algorithms for generalized LDA, \nwhich can be characterized in a closed form. We study two specific \nalgorithms, namely Uncorrelated LDA (ULDA) and Orthogonal LDA (OLDA). \nULDA was previously proposed for feature extraction and dimension \nreduction, whereas OLDA is a novel algorithm proposed in this paper. \nThe features in the reduced space of ULDA are uncorrelated, while \nthe discriminant vectors of OLDA are orthogonal to each other. We \nhave conducted a comparative study on a variety of real-world data \nsets to evaluate ULDA and OLDA in terms of classification accuracy.",
+    "authors": [
+        "Jieping Ye"
+    ],
+    "id": "ye05a",
+    "issue": 17,
+    "pages": [
+        483,
+        502
+    ],
+    "title": "Characterization of a Family of Algorithms for Generalized  Discriminant Analysis on Undersampled Problems",
+    "volume": "6",
+    "year": "2005"
+}

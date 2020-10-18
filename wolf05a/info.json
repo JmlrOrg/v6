@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nThe problem of selecting a subset of relevant features in a\npotentially overwhelming quantity of data is classic and found in many\nbranches of science. Examples in computer vision, text processing and\nmore recently bio-informatics are abundant. In text classification\ntasks, for example, it is not uncommon to have 10<sup>4</sup> to\n10<sup>7</sup> features of the size of the vocabulary containing word\nfrequency counts, with the expectation that only a small fraction of\nthem are relevant. Typical examples include the automatic sorting of\nURLs into a web directory and the detection of spam email.\n</p>\n<p>\nIn this work we present a definition of \"relevancy\" based on\nspectral properties of the Laplacian of the features' measurement\nmatrix. The feature selection process is then based on a continuous\nranking of the features defined by a least-squares optimization\nprocess. A remarkable property of the feature relevance function is\nthat sparse solutions for the ranking values naturally emerge as a\nresult of a \"biased non-negativity\" of a key matrix in the\nprocess. As a result, a simple least-squares optimization process\nconverges onto a sparse solution, i.e., a selection of a subset of\nfeatures which form a local maximum over the relevance function. The\nfeature selection algorithm can be embedded in both unsupervised and\nsupervised inference problems and empirical evidence show that the\nfeature selections typically achieve high accuracy even when only a\nsmall fraction of the features are relevant.\n</p>",
+    "authors": [
+        "Lior Wolf",
+        "Amnon Shashua"
+    ],
+    "id": "wolf05a",
+    "issue": 62,
+    "pages": [
+        1855,
+        1887
+    ],
+    "title": "Feature Selection for Unsupervised and Supervised Inference: The Emergence of Sparsity in a Weight-Based Approach",
+    "volume": "6",
+    "year": "2005"
+}

@@ -1,0 +1,17 @@
+{
+    "abstract": "We compare machine learning methods applied to a difficult real-world\nproblem: predicting computer hard-drive failure using attributes monitored\ninternally by individual drives.  The problem is one of detecting rare\nevents in a time series of noisy and nonparametrically-distributed data. We\ndevelop a new algorithm based on the multiple-instance learning framework\nand the naive Bayesian classifier (mi-NB) which is specifically designed\nfor the low false-alarm case, and is shown to have promising performance.\nOther methods compared are support vector machines (SVMs), unsupervised\nclustering, and non-parametric statistical tests (rank-sum and reverse\narrangements).  The failure-prediction performance of the SVM, rank-sum and\nmi-NB algorithm is considerably better than the threshold method currently\nimplemented in drives, while maintaining low false alarm rates.  Our\nresults suggest that nonparametric statistical tests should be considered\nfor learning problems involving detecting rare events in time series data.\nAn appendix details the calculation of rank-sum significance probabilities\nin the case of discrete, tied observations, and we give new recommendations\nabout when the exact calculation should be used instead of the\ncommonly-used normal approximation.  These normal approximations may be\nparticularly inaccurate for rare event problems like hard drive failures.",
+    "authors": [
+        "Joseph F. Murray",
+        "Gordon F. Hughes",
+        "Kenneth Kreutz-Delgado"
+    ],
+    "id": "murray05a",
+    "issue": 27,
+    "pages": [
+        783,
+        816
+    ],
+    "title": "Machine Learning Methods for Predicting Failures in Hard Drives:  A Multiple-Instance Application",
+    "volume": "6",
+    "year": "2005"
+}

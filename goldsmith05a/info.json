@@ -1,0 +1,16 @@
+{
+    "abstract": "A revision algorithm is a learning algorithm that identifies\nthe target concept, starting from an initial concept.\nSuch an algorithm is considered efficient if its complexity\n(in terms of the measured resource) is\npolynomial in the syntactic distance between the initial\nand the target concept, but only  polylogarithmic in  the number of\nvariables in the universe. \nWe give efficient revision algorithms in the model\nof learning with equivalence and membership queries.\nThe algorithms work in a general revision model where\nboth deletion and addition revision operators\nare allowed. In this model one of the main open problems\nis the efficient revision of Horn formulas.\nTwo revision algorithms are\npresented for special cases of this problem: for depth-1 acyclic Horn\nformulas, and for definite Horn formulas with unique heads.",
+    "authors": [
+        "Judy Goldsmith",
+        "Robert H. Sloan"
+    ],
+    "id": "goldsmith05a",
+    "issue": 64,
+    "pages": [
+        1919,
+        1938
+    ],
+    "title": "New Horn Revision Algorithms",
+    "volume": "6",
+    "year": "2005"
+}

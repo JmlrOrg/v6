@@ -1,0 +1,18 @@
+{
+    "abstract": "This article investigates the effectiveness of voting and stacked\ngeneralization -also known as stacking- in the context of information\nextraction (IE). A new stacking framework is proposed that\naccommodates well-known approaches for IE. The key idea is to perform\ncross-validation on the base-level data set, which consists of text\ndocuments annotated with relevant information, in order to create a\nmeta-level data set that consists of feature vectors. A classifier is\nthen trained using the new vectors. Therefore, base-level IE systems\nare combined with a common classifier at the meta-level. Various\nvoting schemes are presented for comparing against stacking in various\nIE domains. Well known IE systems are employed at the base-level,\ntogether with a variety of classifiers at the meta-level. Results show\nthat both voting and stacking work better when relying on\nprobabilistic estimates by the base-level systems. Voting proved to be\neffective in most domains in the experiments. Stacking, on the other\nhand, proved to be consistently effective over all domains, doing\ncomparably or better than voting and always better than the best\nbase-level systems. Particular emphasis is also given to explaining\nthe results obtained by voting and stacking at the meta-level, with\nrespect to the varying degree of similarity in the output of the\nbase-level systems.",
+    "authors": [
+        "Georgios Sigletos",
+        "Georgios Paliouras",
+        "Constantine D. Spyropoulos",
+        "Michalis Hatzopoulos"
+    ],
+    "id": "sigletos05a",
+    "issue": 59,
+    "pages": [
+        1751,
+        1782
+    ],
+    "title": "Combining Information Extraction Systems Using Voting and Stacked Generalization",
+    "volume": "6",
+    "year": "2005"
+}

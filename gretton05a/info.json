@@ -1,0 +1,19 @@
+{
+    "abstract": "We introduce two new functionals, the constrained covariance\nand the kernel mutual information, to measure the degree of independence\nof random variables. These quantities are both based on the covariance\nbetween functions of the random variables in reproducing kernel Hilbert\nspaces (RKHSs). We prove that when the RKHSs are universal, both functionals\nare zero if and only if the random variables are pairwise independent.\nWe also show that the kernel mutual information is an upper bound\nnear independence on the Parzen window estimate of the mutual information.\nAnalogous results apply for two correlation-based dependence functionals\nintroduced earlier: we show the kernel canonical correlation and the\nkernel generalised variance to be independence measures for universal\nkernels, and prove the latter to be an upper bound on the mutual information\nnear independence. The performance of the kernel dependence functionals\nin measuring independence is verified in the context of independent\ncomponent analysis.",
+    "authors": [
+        "Arthur Gretton",
+        "Ralf Herbrich",
+        "Alexander Smola",
+        "Olivier Bousquet",
+        "Bernhard Sch&#246;lkopf"
+    ],
+    "id": "gretton05a",
+    "issue": 70,
+    "pages": [
+        2075,
+        2129
+    ],
+    "title": "Kernel Methods for Measuring Independence",
+    "volume": "6",
+    "year": "2005"
+}

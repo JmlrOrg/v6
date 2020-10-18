@@ -1,0 +1,16 @@
+{
+    "abstract": "In this paper, we study a two-category classification problem.\nWe indicate the categories by labels <i>Y=1</i> and <i>Y=-1</i>. \nWe observe a covariate, or feature, \n<i>X &#8712; </i>X<i> &#8834; &#8476;<sup>d</sup></i>.\nConsider a collection <i>{h<sub>a</sub>}</i> of classifiers indexed \nby a finite-dimensional\nparameter <i>a</i>, and the classifier <i>h<sub>a*</sub></i> that minimizes \nthe prediction error\nover this class. The parameter <i>a*</i> is estimated by the empirical risk minimizer\n<i>&#226;<sub>n</sub></i> over the class, where the empirical risk is calculated on a\ntraining sample of size <i>n</i>. We apply the Kim Pollard Theorem to show \nthat under certain differentiability assumptions, <i>&#226;<sub>n</sub></i> converges \nto <i>a*</i> with rate\n<i>n<sup>-1/3</sup></i>, and also present the asymptotic distribution of the\nrenormalized estimator.\n\n<p>\nFor example, let <i>V<sub>0</sub></i> denote the set\nof <i>x</i> on which, given <i>X=x</i>, the label <i>Y=1</i> is more likely\n(than the label <i>Y=-1</i>). If <i>X</i> is one-dimensional, the set \n<i>V<sub>0</sub></i> is the\nunion of  disjoint intervals. The problem is then to estimate the thresholds\nof the intervals. We  obtain the asymptotic distribution of the empirical\nrisk minimizer when the classifiers have <i>K</i> thresholds, where <i>K</i> \nis fixed.\nWe furthermore consider an extension to higher-dimensional <i>X</i>,  assuming\nbasically that <i>V<sub>0</sub></i> has a smooth boundary in some given parametric\nclass.\n</p>\n\n<p>\nWe also discuss various rates of convergence when the differentiability\nconditions are possibly violated. Here, we again restrict ourselves to\none-dimensional <i>X</i>. We show that the rate\nis <i>n<sup>-1</sup></i> in certain cases, and then also obtain the asymptotic distribution for the empirical prediction error.\n</p>",
+    "authors": [
+        "Leila Mohammadi",
+        "Sara van de Geer"
+    ],
+    "id": "mohammadi05a",
+    "issue": 68,
+    "pages": [
+        2027,
+        2047
+    ],
+    "title": "Asymptotics in Empirical Risk Minimization",
+    "volume": "6",
+    "year": "2005"
+}

@@ -1,0 +1,15 @@
+{
+    "abstract": "This paper describes a scheme for local computation in conditional\nGaussian Bayesian networks that combines the approach of\nLauritzen and Jensen (2001) with some elements of\nShachter and Kenley (1989).  Message passing takes place on an\nelimination tree structure rather than the more compact (and usual)\njunction tree of cliques.  This yields a local computation scheme in\nwhich all calculations involving the continuous variables are\nperformed by manipulating univariate regressions, and hence matrix\noperations are avoided.",
+    "authors": [
+        "Robert G. Cowell"
+    ],
+    "id": "cowell05a",
+    "issue": 52,
+    "pages": [
+        1517,
+        1550
+    ],
+    "title": "Local Propagation in Conditional Gaussian Bayesian Networks",
+    "volume": "6",
+    "year": "2005"
+}

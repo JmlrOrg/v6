@@ -1,0 +1,16 @@
+{
+    "abstract": "We study the problem of finding an optimal kernel from a prescribed\nconvex set of kernels <i>K</i> for learning a real-valued function by\nregularization. We establish for a wide variety of regularization\nfunctionals that this leads to a convex optimization problem and, for\nsquare loss regularization, we characterize the solution of this\nproblem.  We show that, although <i>K</i> may be an uncountable set,\nthe optimal kernel is always obtained as a convex combination of at\nmost <i>m+2</i> basic kernels, where <i>m</i> is the number of data examples. In\nparticular, our results apply to learning the optimal radial kernel or\nthe optimal dot product kernel.",
+    "authors": [
+        "Charles A. Micchelli",
+        "Massimiliano Pontil"
+    ],
+    "id": "micchelli05a",
+    "issue": 38,
+    "pages": [
+        1099,
+        1125
+    ],
+    "title": "Learning the Kernel Function via Regularization",
+    "volume": "6",
+    "year": "2005"
+}

@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper brings together methods from two different disciplines:\nstatistics and machine learning. We address the problem of estimating\nthe variance of cross-validation (CV) estimators of the generalization\nerror. In particular, we approach the problem of variance estimation\nof the CV estimators of generalization error as a problem in\napproximating the moments of a statistic. The approximation\nillustrates the role of training and test sets in the performance of\nthe algorithm. It provides a unifying approach to evaluation of\nvarious methods used in obtaining training and test sets and it takes\ninto account the variability due to different training and test\nsets. For the simple problem of predicting the sample mean and in the\ncase of smooth loss functions, we show that the variance of the CV\nestimator of the generalization error is a function of the moments of\nthe random variables Y=<i>Card</i>(S<sub>j</sub> &#8745; S<sub>j'</sub>)\nand Y*=<i>Card</i>(S<sub>j</sub><sup>c</sup> &#8745;\nS<sub>j'</sub><sup>c</sup>), where S<sub>j</sub>, S<sub>j'</sub> are\ntwo training sets, and S<sub>j</sub><sup>c</sup>,\nS<sub>j'</sub><sup>c</sup> are the corresponding test sets. We prove\nthat the distribution of Y and Y* is hypergeometric and we compare our\nestimator with the one proposed by Nadeau and Bengio (2003). We extend\nthese results in the regression case and the case of absolute error\nloss, and indicate how the methods can be extended to the\nclassification case. We illustrate the results through simulation.",
+    "authors": [
+        "Marianthi Markatou",
+        "Hong Tian",
+        "Shameek Biswas",
+        "George Hripcsak"
+    ],
+    "id": "markatou05a",
+    "issue": 39,
+    "pages": [
+        1127,
+        1168
+    ],
+    "title": "Analysis of Variance of Cross-Validation Estimators of the Generalization Error",
+    "volume": "6",
+    "year": "2005"
+}

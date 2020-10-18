@@ -1,0 +1,16 @@
+{
+    "abstract": "Gaussian process priors can be used to define flexible, probabilistic\nclassification models. Unfortunately exact Bayesian inference is\nanalytically intractable and various approximation techniques have\nbeen proposed. In this work we review and compare Laplace's method and\nExpectation Propagation for approximate Bayesian inference in the\nbinary Gaussian process classification model. We present a\ncomprehensive comparison of the approximations, their predictive\nperformance and marginal likelihood estimates to results obtained by\nMCMC sampling. We explain theoretically and corroborate empirically\nthe advantages of Expectation Propagation compared to Laplace's\nmethod.",
+    "authors": [
+        "Malte Kuss",
+        "Carl Edward Rasmussen"
+    ],
+    "id": "kuss05a",
+    "issue": 57,
+    "pages": [
+        1679,
+        1704
+    ],
+    "title": "Assessing Approximate Inference for Binary Gaussian Process Classification",
+    "volume": "6",
+    "year": "2005"
+}

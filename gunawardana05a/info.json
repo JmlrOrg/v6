@@ -1,0 +1,16 @@
+{
+    "abstract": "The EM algorithm is widely used to develop iterative parameter\nestimation procedures for statistical models.  In cases where these\nprocedures strictly follow the EM formulation, the convergence\nproperties of the estimation procedures are well understood.  In\nsome instances there are practical reasons to develop procedures\nthat do not strictly fall within the EM framework.  We study EM\nvariants in which the E-step is not performed exactly, either to\nobtain improved rates of convergence, or due to approximations\nneeded to compute statistics under a model family over which E-steps\ncannot be realized.  Since these variants are not EM procedures, the\nstandard (G)EM convergence results do not apply to them.  We present\nan information geometric framework for describing such algorithms\nand analyzing their convergence properties.  We apply this framework\nto analyze the convergence properties of incremental EM and\nvariational EM.  For incremental EM, we discuss conditions under\nthese algorithms converge in likelihood.  For variational EM, we\nshow how the E-step approximation prevents convergence to local\nmaxima in likelihood.",
+    "authors": [
+        "Asela Gunawardana",
+        "William Byrne"
+    ],
+    "id": "gunawardana05a",
+    "issue": 69,
+    "pages": [
+        2049,
+        2073
+    ],
+    "title": "Convergence Theorems for Generalized Alternating Minimization Procedures",
+    "volume": "6",
+    "year": "2005"
+}

@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper develops a fast method for solving linear SVMs with \n<i>L<sub>2</sub></i>\nloss function that is suited for large scale data mining tasks such as\ntext classification.  This is done by modifying the finite Newton\nmethod of Mangasarian in several ways.  Experiments indicate that the\nmethod is much faster than decomposition methods such as SVM<sup>light</sup>,\nSMO and BSVM (e.g., 4-100 fold), especially when the number of\nexamples is large. The paper also suggests ways of extending the\nmethod to other loss functions such as the modified Huber's loss\nfunction and the <i>L<sub>1</sub></i> loss function, and also for \nsolving ordinal regression.",
+    "authors": [
+        "S. Sathiya Keerthi",
+        "Dennis DeCoste"
+    ],
+    "id": "keerthi05a",
+    "issue": 12,
+    "pages": [
+        341,
+        361
+    ],
+    "title": "A Modified Finite Newton Method for Fast Solution of Large Scale Linear SVMs",
+    "volume": "6",
+    "year": "2005"
+}

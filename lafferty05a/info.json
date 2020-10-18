@@ -1,0 +1,16 @@
+{
+    "abstract": "A family of kernels for statistical learning is introduced that \nexploits the geometric structure of statistical models. The kernels \nare based on the heat equation on the Riemannian manifold defined\nby the Fisher information metric associated with a statistical family, \nand generalize the Gaussian kernel of Euclidean space. As an important \nspecial case, kernels based on the geometry of multinomial families \nare derived, leading to kernel-based learning algorithms that apply \nnaturally to discrete data. Bounds on covering numbers and Rademacher \naverages for the kernels are proved using bounds on the eigenvalues \nof the Laplacian on Riemannian manifolds. Experimental results\nare presented for document classification, for which the use of \nmultinomial geometry is natural and well motivated, and improvements \nare obtained over the standard use of Gaussian or linear kernels,\nwhich have been the standard for text classification.",
+    "authors": [
+        "John Lafferty",
+        "Guy Lebanon"
+    ],
+    "id": "lafferty05a",
+    "issue": 5,
+    "pages": [
+        129,
+        163
+    ],
+    "title": "Diffusion Kernels on Statistical Manifolds",
+    "volume": "6",
+    "year": "2005"
+}

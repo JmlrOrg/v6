@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\n  AdaBoost produces a linear combination of base hypotheses and predicts\n  with the sign of this linear combination.  The linear combination may\n  be viewed as a hyperplane in feature space where the base hypotheses\n  form the features.  It has been observed that the generalization error\n  of the algorithm continues to improve even after all examples are on\n  the correct side of the current hyperplane.  The improvement is\n  attributed to the experimental observation that the distances\n  (margins) of the examples to the separating hyperplane are increasing\n  even after all examples are on the correct side.\n</p>\n<p>\n  We introduce a new version of AdaBoost, called\n  AdaBoost*<sub>&#957;</sub>, that\n  explicitly maximizes the minimum margin of the examples up to a given\n  precision. The algorithm incorporates a current estimate of the\n  achievable margin into its calculation of the linear coefficients of\n  the base hypotheses.  The bound on the number of iterations needed by\n  the new algorithms is the same as the number needed by a known version\n  of AdaBoost that must have an explicit estimate of the achievable\n  margin as a parameter. We also illustrate experimentally \n  that our algorithm requires considerably fewer iterations \n  than other algorithms that aim to maximize the margin.\n</p>",
+    "authors": [
+        "Gunnar R&#228;tsch",
+        "Manfred K. Warmuth"
+    ],
+    "id": "ratsch05a",
+    "issue": 71,
+    "pages": [
+        2131,
+        2152
+    ],
+    "title": "Efficient Margin Maximizing with Boosting",
+    "volume": "6",
+    "year": "2005"
+}

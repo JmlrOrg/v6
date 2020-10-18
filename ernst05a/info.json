@@ -1,0 +1,17 @@
+{
+    "abstract": "Reinforcement  learning  aims to  determine  an  optimal  control policy  from\ninteraction with  a system  or from observations  gathered from a  system.  In\nbatch mode,  it can  be achieved by  approximating the  so-called \n<i>Q</i>-function based on a set of four-tuples  (<i>x<sub>t</sub></i>, \n<i>u<sub>t</sub></i> , <i>r<sub>t</sub></i>, <i>x<sub>t+1</sub></i>) where \n<i>x<sub>t</sub></i> denotes the  system state  at time  <i>t</i>,  \n<i>u<sub>t</sub></i> the  control action  taken, <i>r<sub>t</sub></i>  \nthe instantaneous reward obtained and <i>x<sub>t+1</sub></i> the \nsuccessor state of the system, and  by   determining  the  control   \npolicy  from  this <i>Q</i>-function.   \nThe <i>Q</i>-function approximation  may be  obtained from the  limit of a  \nsequence of (batch mode) supervised learning  problems.  Within this framework \nwe describe the  use of several  classical tree-based  supervised learning  \nmethods (CART, Kd-tree, tree bagging) and two newly proposed ensemble \nalgorithms, namely <i>extremely</i> and <i>totally</i> randomized trees.  \nWe study their performances on several examples and find that  the ensemble \nmethods based on regression trees perform  well in  extracting relevant  \ninformation about  the  optimal control policy from sets of four-tuples.   \nIn particular, the totally randomized trees give good results  while \nensuring the convergence of  the sequence, whereas by relaxing the \nconvergence constraint  even better accuracy results are provided\nby the extremely  randomized trees.",
+    "authors": [
+        "Damien  Ernst",
+        "Pierre  Geurts",
+        "Louis  Wehenkel"
+    ],
+    "id": "ernst05a",
+    "issue": 18,
+    "pages": [
+        503,
+        556
+    ],
+    "title": "Tree-Based Batch Mode Reinforcement Learning",
+    "volume": "6",
+    "year": "2005"
+}

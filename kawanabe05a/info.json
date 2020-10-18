@@ -1,0 +1,16 @@
+{
+    "abstract": "A blind separation problem where the sources are not independent,\nbut have variance dependencies is discussed. For this scenario\nHyv&#228;rinen and Hurri (2004) proposed an algorithm which requires \nno assumption on distributions of sources and no parametric model \nof dependencies between components.  In this paper, we extend \nthe semiparametric approach of Amari and Cardoso (1997) to variance \ndependencies and study estimating functions for blind separation of \nsuch dependent sources.  In particular, we show that many ICA \nalgorithms are applicable to the variance-dependent model as well\nunder mild conditions, although they should in principle not. \nOur results indicate that separation can be done based only on \nnormalized sources which are adjusted to have stationary variances\nand is not affected by the dependent activity levels. We also study \nthe asymptotic distribution of the quasi maximum likelihood method and\nthe stability of the natural gradient learning in detail. Simulation \nresults of artificial and realistic examples match well with our \ntheoretical findings.",
+    "authors": [
+        "Motoaki Kawanabe",
+        "Klaus-Robert M&#252;ller"
+    ],
+    "id": "kawanabe05a",
+    "issue": 16,
+    "pages": [
+        453,
+        482
+    ],
+    "title": "Estimating Functions for Blind Separation When Sources Have Variance Dependencies",
+    "volume": "6",
+    "year": "2005"
+}

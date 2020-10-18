@@ -1,0 +1,16 @@
+{
+    "abstract": "This paper describes an active learning approach to the problem of\ngrammatical inference, specifically the inference of deterministic\nfinite automata (DFAs). We refer to the algorithm as the\nestimation-exploration algorithm (EEA). This approach differs from\nprevious passive and active learning approaches to grammatical\ninference in that training data is actively proposed by the\nalgorithm, rather than passively receiving training data from some\nexternal teacher. Here we show that this algorithm outperforms one\nversion of the most powerful set of algorithms for grammatical\ninference, evidence driven state merging (EDSM), on\nrandomly-generated DFAs. The performance increase is due to the\nfact that the EDSM algorithm only works well for DFAs with\nspecific balances (percentage of positive labelings), while the\nEEA is more consistent over a wider range of balances. Based on\nthis finding we propose a more general method for generating DFAs\nto be used in the development of future grammatical inference\nalgorithms.",
+    "authors": [
+        "Josh Bongard",
+        "Hod Lipson"
+    ],
+    "id": "bongard05a",
+    "issue": 56,
+    "pages": [
+        1651,
+        1678
+    ],
+    "title": "Active Coevolutionary Learning of Deterministic Finite Automata",
+    "volume": "6",
+    "year": "2005"
+}

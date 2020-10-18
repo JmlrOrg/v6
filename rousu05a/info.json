@@ -1,0 +1,16 @@
+{
+    "abstract": "<p>\nWe present a sparse dynamic programming algorithm that, given two\nstrings <i>s</i> and <i>t</i> , a gap penalty &#955;, and an integer\n<i>p</i>, computes the value of the gap-weighted length-<i>p</i>\nsubsequences kernel. The algorithm works in time <i>O</i>(<i>p</i>\n|<i>M</i>| log |<i>t</i>|), where <i>M</i> = {(<i>i,j</i>) | \n<i>s<sub>i</sub></i> = <i>t<sub>j</sub></i>} is the set of matches of\ncharacters in the two sequences. The algorithm is easily adapted to\nhandle bounded length subsequences and different gap-penalty schemes,\nincluding penalizing by the total length of gaps and the number of\ngaps as well as incorporating character-specific match/gap penalties.\n</p>\n\n<p> The new algorithm is empirically evaluated against a full dynamic\nprogramming approach and a trie-based algorithm both on synthetic and\nnewswire article data. Based on the experiments, the full dynamic\nprogramming approach is the fastest on short strings, and on long\nstrings if the alphabet is small. On large alphabets, the new sparse\ndynamic programming algorithm is the most efficient. On medium-sized\nalphabets the trie-based approach is best if the maximum number of\nallowed gaps is strongly restricted.\n</p>",
+    "authors": [
+        "Juho Rousu",
+        "John Shawe-Taylor"
+    ],
+    "id": "rousu05a",
+    "issue": 45,
+    "pages": [
+        1323,
+        1344
+    ],
+    "title": "Efficient Computation of Gapped Substring Kernels on Large Alphabets",
+    "volume": "6",
+    "year": "2005"
+}

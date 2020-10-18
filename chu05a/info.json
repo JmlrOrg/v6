@@ -1,0 +1,16 @@
+{
+    "abstract": "We present a probabilistic kernel approach to ordinal regression\nbased on Gaussian processes. A threshold model that generalizes\nthe <i>probit</i> function is used as the likelihood function for\nordinal variables. Two inference techniques, based on the Laplace\napproximation and the expectation propagation algorithm\nrespectively, are derived for hyperparameter learning and model\nselection. We compare these two Gaussian process approaches with a\nprevious ordinal regression method based on support vector\nmachines on some benchmark and real-world data sets, including\napplications of ordinal regression to collaborative filtering and\ngene expression analysis. Experimental results on these data sets\nverify the usefulness of our approach.",
+    "authors": [
+        "Wei Chu",
+        "Zoubin Ghahramani"
+    ],
+    "id": "chu05a",
+    "issue": 35,
+    "pages": [
+        1019,
+        1041
+    ],
+    "title": "Gaussian Processes for Ordinal Regression",
+    "volume": "6",
+    "year": "2005"
+}

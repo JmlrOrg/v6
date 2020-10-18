@@ -1,0 +1,21 @@
+{
+    "abstract": "This paper presents an active learning method which reduces the \nlabeling effort of domain experts in multi-class classification \nproblems.  Active learning is applied in conjunction with\nsupport vector machines to recognize underwater zooplankton \nfrom higher-resolution, new generation SIPPER II images.\nMost previous work on active learning with support vector machines \nonly deals with two class problems.  In this paper, we propose an \nactive learning approach \"breaking ties\" for multi-class support\nvector machines using the one-vs-one approach with a probability \napproximation. Experimental results indicate that our approach often \nrequires significantly less labeled images to reach a given accuracy \nthan the approach of labeling the least certain test example and \nrandom sampling.  It can also be applied in batch mode resulting \nin an accuracy comparable to labeling one image at a time and \nretraining.",
+    "authors": [
+        "Tong Luo",
+        "Kurt Kramer",
+        "Dmitry B. Goldgof",
+        "Lawrence O. Hall",
+        "Scott Samson",
+        "Andrew Remsen",
+        "Thomas Hopkins"
+    ],
+    "id": "luo05a",
+    "issue": 20,
+    "pages": [
+        589,
+        613
+    ],
+    "title": "Active Learning to Recognize Multiple Types of Plankton",
+    "volume": "6",
+    "year": "2005"
+}

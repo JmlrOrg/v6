@@ -1,0 +1,18 @@
+{
+    "abstract": "<p>\nVery high dimensional learning systems become theoretically possible when\ntraining examples are abundant. The computing cost then becomes the limiting\nfactor. Any efficient learning algorithm should at least take a brief look at\neach example. But should all examples be given equal attention?\n</p><p>\nThis contribution proposes an empirical answer.  \nWe first present an online SVM algorithm based on this premise.  \nLASVM yields competitive misclassification rates after a single \npass over the training examples, outspeeding state-of-the-art SVM solvers.  \nThen we show how active example selection can yield faster training, \nhigher accuracies, and simpler models, using only a fraction \nof the training example labels.\n</p>",
+    "authors": [
+        "Antoine Bordes",
+        "Seyda Ertekin",
+        "Jason Weston",
+        "L&#233;on Bottou"
+    ],
+    "id": "bordes05a",
+    "issue": 54,
+    "pages": [
+        1579,
+        1619
+    ],
+    "title": "Fast Kernel Classifiers with Online and Active Learning",
+    "volume": "6",
+    "year": "2005"
+}

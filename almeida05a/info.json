@@ -1,0 +1,15 @@
+{
+    "abstract": "<p>\nWhen acquiring an image of a paper document, the image printed on the\nback page sometimes shows through. The mixture of the front- and\nback-page images thus obtained is markedly nonlinear, and thus \nconstitutes a good real-life test case for nonlinear blind source\nseparation.\n</p><p>\nThis paper addresses a difficult version of this problem,\ncorresponding to the use of \"onion skin\" paper, which results in a\nrelatively strong nonlinearity of the mixture, which becomes close to\nsingular in the lighter regions of the images. The separation is\nachieved through the MISEP technique, which is an extension of the\nwell known INFOMAX method. The separation results are assessed with\nobjective quality measures. They show an improvement over the\nresults obtained with linear separation, but have room for further\nimprovement.\n</p>",
+    "authors": [
+        "Lu&#237;s B. Almeida"
+    ],
+    "id": "almeida05a",
+    "issue": 41,
+    "pages": [
+        1199,
+        1229
+    ],
+    "title": "Separating a Real-Life Nonlinear Image Mixture",
+    "volume": "6",
+    "year": "2005"
+}

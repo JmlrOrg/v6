@@ -1,0 +1,17 @@
+{
+    "abstract": "We study the problem of learning many related tasks simultaneously\nusing kernel methods and regularization. The standard single-task\nkernel methods, such as support vector machines and regularization\nnetworks, are extended to the case of multi-task learning.  Our\nanalysis shows that the problem of estimating many task functions with\nregularization can be cast as a single task learning problem if a\nfamily of multi-task kernel functions we define is used.  These\nkernels model relations among the tasks and are derived from a novel\nform of regularizers. Specific kernels that can be used for multi-task\nlearning are provided and experimentally tested on two real\ndata sets. In agreement with past empirical work on multi-task\nlearning, the experiments show that learning multiple related tasks\nsimultaneously using the proposed approach can significantly\noutperform standard single-task learning particularly when there are\nmany related tasks but few data per task.",
+    "authors": [
+        "Theodoros Evgeniou",
+        "Charles A. Micchelli",
+        "Massimiliano Pontil"
+    ],
+    "id": "evgeniou05a",
+    "issue": 21,
+    "pages": [
+        615,
+        637
+    ],
+    "title": "Learning Multiple Tasks with Kernel Methods",
+    "volume": "6",
+    "year": "2005"
+}

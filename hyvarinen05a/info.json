@@ -1,0 +1,15 @@
+{
+    "abstract": "One often wants to estimate statistical models where the probability\ndensity function is known only up to a multiplicative normalization\nconstant. Typically, one then has to resort to Markov Chain Monte\nCarlo methods, or approximations of the normalization constant. Here,\nwe propose that such models can be estimated by minimizing the\nexpected squared distance between the gradient of the log-density\ngiven by the model and the gradient of the log-density of the observed\ndata.  While the estimation of the gradient of log-density function\nis, in principle, a very difficult non-parametric problem, we prove a\nsurprising result that gives a simple formula for this objective\nfunction. The density function of the observed data does not appear in\nthis formula, which simplifies to a sample average of a sum of some\nderivatives of the log-density given by the model.  The validity of\nthe method is demonstrated on multivariate Gaussian and independent\ncomponent analysis models, and by estimating an overcomplete filter\nset for natural image data.",
+    "authors": [
+        "Aapo Hyv&#228;rinen"
+    ],
+    "id": "hyvarinen05a",
+    "issue": 24,
+    "pages": [
+        695,
+        709
+    ],
+    "title": "Estimation of Non-Normalized Statistical Models by Score Matching",
+    "volume": "6",
+    "year": "2005"
+}
