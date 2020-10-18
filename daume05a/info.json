@@ -1,7 +1,7 @@
 {
     "abstract": "We develop a Bayesian framework for tackling the supervised clustering\nproblem, the generic problem encountered in tasks such as reference\nmatching, coreference resolution, identity uncertainty and record\nlinkage.  Our clustering model is based on the Dirichlet process\nprior, which enables us to define distributions over the countably\ninfinite sets that naturally arise in this problem.  We add\n<i>supervision</i> to our model by positing the existence of a set of\nunobserved random variables (we call these \"reference types\") that\nare generic across all clusters.  Inference in our framework, which\nrequires integrating over infinitely many parameters, is solved using\nMarkov chain Monte Carlo techniques.  We present algorithms for both\nconjugate and non-conjugate priors.  We present a simple---but\ngeneral---parameterization of our model based on a Gaussian\nassumption.  We evaluate this model on one artificial task and three\nreal-world tasks, comparing it against both unsupervised and\nstate-of-the-art supervised algorithms.  Our results show that our\nmodel is able to outperform other models across a variety of tasks and\nperformance metrics.",
     "authors": [
-        "Hal Daum&#233; III",
+        "Hal Daum{{\\'e}} III",
         "Daniel Marcu"
     ],
     "id": "daume05a",

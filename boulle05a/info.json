@@ -1,7 +1,7 @@
 {
-    "abstract": "In supervised machine learning, the partitioning of the values (also\ncalled grouping) of a categorical attribute aims at constructing a new\nsynthetic attribute which keeps the information of the initial\nattribute and reduces the number of its values. In this paper, we\npropose a new grouping method MODL founded on a Bayesian\napproach. The method relies on a model space of grouping models and on\na prior distribution defined on this model space. This results in an\nevaluation criterion of grouping, which is minimal for the most\nprobable grouping given the data, <i>i.e.</i> the Bayes optimal grouping. We\npropose new super-linear optimization heuristics that yields\nnear-optimal groupings. Extensive comparative experiments demonstrate\nthat the MODL grouping method builds high quality groupings in terms\nof predictive quality, robustness and small number of groups.",
+    "abstract": "In supervised machine learning, the partitioning of the values (also called grouping) of a categorical attribute aims at constructing a new synthetic attribute which keeps the information of the initial attribute and reduces the number of its values. In this paper, we propose a new grouping method MODL founded on a Bayesian approach. The method relies on a model space of grouping models and on a prior distribution defined on this model space. This results in an evaluation criterion of grouping, which is minimal for the most probable grouping given the data, <i>i.e.</i> the Bayes optimal grouping. We propose new super-linear optimization heuristics that yields near-optimal groupings. Extensive comparative experiments demonstrate that the MODL grouping method builds high quality groupings in terms of predictive quality, robustness and small number of groups.",
     "authors": [
-        "Marc Boull&#233;"
+        "Marc Boull{{\\'e}}"
     ],
     "id": "boulle05a",
     "issue": 49,
