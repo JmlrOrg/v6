@@ -2,7 +2,7 @@
     "abstract": "We address the problem of learning a symmetric positive definite\nmatrix.  The central issue is to design parameter updates that\npreserve positive definiteness.  Our updates are motivated with the\n<i>von Neumann</i> divergence. Rather than treating the most general\ncase, we focus on two key applications that exemplify our methods:\non-line learning with a simple square loss, and finding a symmetric\npositive definite matrix subject to linear constraints.  The updates\ngeneralize the exponentiated gradient (EG) update and AdaBoost,\nrespectively: the parameter is now a symmetric positive definite\nmatrix of trace one instead of a probability vector (which in this\ncontext is a diagonal positive definite matrix with trace one).  The\ngeneralized updates use matrix logarithms and exponentials to preserve\npositive definiteness.  Most importantly, we show how the derivation\nand the analyses of the original EG update and AdaBoost generalize to\nthe non-diagonal case. We apply the resulting <i>matrix exponentiated\ngradient</i> (MEG) update and <i>DefiniteBoost</i> to the problem of\nlearning a kernel matrix from distance measurements.",
     "authors": [
         "Koji Tsuda",
-        "Gunnar R&#228;tsch",
+        "Gunnar R{{\\\"a}}tsch",
         "Manfred K. Warmuth"
     ],
     "id": "tsuda05a",
