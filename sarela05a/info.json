@@ -1,7 +1,7 @@
 {
     "abstract": "A new algorithmic framework called denoising source separation (DSS)\nis introduced. The main benefit of this framework is that it allows\nfor the easy development of new source separation algorithms which can be\noptimised for specific problems. In this framework, source\nseparation algorithms are constructed around denoising\nprocedures. The resulting algorithms can range from almost blind to\nhighly specialised source separation algorithms. Both simple linear\nand more complex nonlinear or adaptive denoising schemes are\nconsidered. Some existing independent component analysis algorithms\nare reinterpreted within the DSS framework and new, robust blind source\nseparation algorithms are suggested.  The framework is derived as a\none-unit equivalent to an EM algorithm for source\nseparation. However, in the DSS framework it is easy to utilise\nvarious kinds of denoising procedures which need not be based on\ngenerative models.\nIn the experimental section, various DSS schemes are\napplied extensively to artificial data, to real\nmagnetoencephalograms and to simulated CDMA mobile network signals.\nFinally, various extensions to the proposed DSS algorithms are\nconsidered. These include nonlinear observation mappings,\nhierarchical models and over-complete, nonorthogonal feature spaces.\nWith these extensions, DSS appears to have relevance to many\nexisting models of neural information processing.",
     "authors": [
-        "Jaakko S&#228;rel&#228;",
+        "Jaakko S{{\\\"a}}rel{{\\\"a}}",
         "Harri Valpola"
     ],
     "id": "sarela05a",
